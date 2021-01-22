@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  /* width: 80%; */
+  margin: 0 auto;
+  background-color: #f5f8fa;
+}
+
+.clearfix::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+
+/* HEADER */
+header {
+  width: 100%;
+}
+
+  /* top bar */
+.top_bar{
+  font-size: 14px;
+  border-bottom: 2px solid grey;
+}
+.top_bar i {
+  color: lightblue;
+}
+.top_bar ul li,
+.header_nav ul li {
+  display: inline;
+}
+.top_bar ul li a,
+.header_nav ul li a{
+  text-decoration: none;
+  color:
+}
+.tb_left li{
+  border-right: 1px solid grey;
+}
+.tb_left li:last-child{
+  border:none;
+}
+.tb_right {
+  text-align: right;
+}
+
+  /* header navigazione */
+.menu li::after {
+  /* content: 'CODICE ICONA'; */
+  margin-left:5px;
+}
+
+    /* hero section */
+.hero_section {
+  height: 70vh;
+  background-image: url('../img/jumbotron.png');
+
+}
+
+/*REGOLE STRUTTURALI*/
+
+.float_left {
+  float: left;
+}
+.float_right{
+  float: right;
+}
+.col2 .w50 {
+  width: 50%;
+}
+/* .col2 .w30 {
+  width: 30%;
+} */
+/* .col2 .w70 {
+  width: 70%;
+} */
+/* .col3 .w33 {
+  width: calc(100 / 3);
+} */
+/* .col4 .w25 {
+  width: 25%;
+} */
+
+
+
+/*BUTTON*/
+.btn {
+  padding:0;
+  border-radius:5px;
+  text-transform:capitalize;
+  border: 1px solid #ff7a69;
+}
+.btn.small {
+  padding:2px 5px;
+}
+.btn.large {
+  padding;0;
+  line-height: 0;
+}
+.btn.orange{
+  background-color: #ff7a69;
+  color: white;
+}
+.btn.orange:hover {
+  /* opacity: 0; */
+}
+.btn.white {
+  background-color:white;
+  color: #ff7a69;
+}
+.btn .orange:hover {
+  /* opacity: 0; arancione */
+}
+
+
+/* PALETTE COLORI
+ARANCIO #ff7a69;
+VERDE CHIARO : #00BDA5;
+VERDE SCURO: #00A4BD;
+GRGIO BG: #F5F8FA;
+BLU FOOTER :#2D3E50;
