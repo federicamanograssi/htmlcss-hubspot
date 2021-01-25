@@ -8,30 +8,35 @@ body {
   font-family: 'Roboto', sans-serif;
   font-size: 14px;
 }
+h2 {
+  font-size: 2.5em;
+}
 .clearfix {
-    content: '';
-    display: table;
-    clear: both;
+  content: '';
+  display: table;
+  clear: both;
 }
     /* GENERAL */
 .boxed {
-    padding: 0 10%;
-    width: 100%;
+  padding: 0 10%;
+  width: 100%;
 }
-
 header .menu_inline li {
-  display: inline;
-  padding: 0 20px;
+display: inline;
+padding: 0 20px;
 }
     /* LAYOUT */
-.col_w50 {
-    width: 50%;
+.col_w25 {
+  width: 25%;;
 }
 .col_w33{
-    width: 33.333%;
+  width: 33.33%;
 }
 .col_w30{
   width: 30%;
+}
+.col_w50 {
+  width: 50%;
 }
 .col_w70{
   width: 70%;
@@ -41,6 +46,12 @@ header .menu_inline li {
 }
 .fl_right {
   float: right;
+}
+.griglia img {
+  max-width: 100%;
+  display: block;
+  margin-left:auto;
+  margin-right:auto;
 }
 
     /* BUTTONS */
@@ -55,130 +66,134 @@ a.btn {
   text-transform: capitalize;
 }
 .btn_small {
-    padding: 4px 10px;
-    line-height: 20px;
+  padding: 4px 10px;
+  line-height: 20px;
 }
 .btn_large {
-    margin-bottom: 20px;
-    margin-top: 20px;
-    padding: 20px 30px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  padding: 20px 30px;
 }
 .btn_orange {
-    background-color: orange;
-    color: white;
+  background-color: orange;
+  color: white;
 
 }
 .btn_white {
-    background-color: white;
-    color: orange;
-    border: 1px solid orange;
+  background-color: white;
+  color: orange;
+  border: 1px solid orange;
 }
 /* HEADER */
 header {
-    width: 100%;;
-    height: 100vh;
-    background-color: pink;
+  width: 100%;;
+  height: 100vh;
+  background-color: pink;
 }
 header a{
-    text-decoration: none;
+  text-decoration: none;
 }
 header .menu_inline li:first-child {
-    padding-left: 0;
+  padding-left: 0;
 }
 header .menu_inline li:last-child {
-    padding-right: 0;
+  padding-right: 0;
 }
 
     /* TOPBAR */
 .top_bar {
-    width: 100%;
-    height: 5vh;
-    background-color: #f5f8fa;
-    line-height: 5vh;
-    border-bottom: 1px solid grey;
+  width: 100%;
+  height: 5vh;
+  background-color: #f5f8fa;
+  line-height: 5vh;
+  border-bottom: 1px solid grey;
 }
 .tb_right {
-    text-align: right;
+  text-align: right;
 }
 
     /* HEADER NAV */
 
 .header_nav {
-    width: 100%;
-    height: 10vh;
-    background-color: white;
-    line-height: 10vh;
-    position: relative;
+  width: 100%;
+  height: 10vh;
+  background-color: white;
+  line-height: 10vh;
+  position: relative;
 }
 .header_nav img {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
 }
 .header_nav a {
-    color: grey;;
+  color: grey;;
 }
 .nav_menu {
-    text-align: right;
+  text-align: right;
 }
 
     /* BANNER */
 .banner {
-    height: 85vh;
-    width: 100%;
-    background-color: #fff3ee;
-    background-image: url('../img/jumbotron.png');
-    background-repeat: no-repeat;
-    background-position-x:right;
-    background-position-y: -0.5vh;
-    background-size: contain;
-    position: relative;
+  height: 85vh;
+  width: 100%;
+  background-color: #fff3ee;
+  background-image: url('../img/jumbotron.png');
+  background-repeat: no-repeat;
+  background-position-x:right;
+  background-position-y: -0.5vh;
+  background-size: contain;
+  position: relative;
 }
 .banner_textblock {
-    position: absolute;
-    top: 30%;
-    transform: translateY(-50%);
+  position: absolute;
+  top: 30%;
+  transform: translateY(-50%);
 }
 .banner_textblock h1 {
-    font-size: 3.5em;
-    margin-bottom: 20px;
+  font-size: 3.5em;
+  margin-bottom: 20px;
 }
 
 .banner_textblock a {
-    display: inline-block;
-    margin-top:20px;
-    margin-bottom:20px;
+  display: inline-block;
+  margin-top:20px;
+  margin-bottom:20px;
 }
 .barra_fixed {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 10vh;
-    background-color: #afebe4;
-    border-top: 3px solid #2d3e50;
-    border-bottom: 3px solid #2d3e50;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 10vh;
+  background-color: #afebe4;
+  border-top: 3px solid #2d3e50;
+  border-bottom: 3px solid #2d3e50;
 }
 
     /* INFO SECTION */
 .info_section {
-    background-color: red;
+  background-color: #f5f8fa;
+}
+.info_section img {
+  height: 200px;
 }
 .row {
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 .parte_free{
-    width: 100%;
-    text-align: center;
+  width: 100%;
+  text-align: center;
 }
 .parte_free > h2 {
-    text-transform: capitalize;
+  text-transform: capitalize;
 }
 /* INFO BLOCK */
 .info_block {
   width: 100%;
   border-radius: 5px;
   border:1px solid white;
+  background-color: white;
   box-shadow: 0 0 11px #eaf0f6;
   padding: 0 20px;
 }
@@ -226,12 +241,101 @@ header .menu_inline li:last-child {
 .info_h_left {
   padding: 50px;
   text-align: center;
-
 }
+
 .info_h_right {
-  padding: 20px 0;
+  padding: 50px;
 }
 
-/* div.ib_ver :not(li){
+/* info_block verticale */
+.ib_ver {
+  padding: 20px;
+}
+.ib_ver>*:not(ul) {
+text-align: center;
+margin-bottom: 2em;
+
+}
+
+
+/* LEARNING SECTION */
+.learning_section {
+  background-image: linear-gradient(45deg,#00a4bd,#00bda5);
+  color:white;
   text-align: center;
-} */
+}
+.testo_free {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.testo_free * {
+  margin-bottom: 20px;
+}
+
+
+p.numeri {
+font-size: 3em;
+font-weight: 600;
+}
+.col * {
+  margin-bottom: 10px;
+}
+.col:not(:last-child){
+  border-right: 1px solid white;
+}
+
+/* BRAND SECTION */
+
+.brand_right, 
+.brand_left {
+  padding: 50px;
+} 
+
+.woman img{
+max-width: 50%;
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+
+/* FOOTER */
+footer{
+  background-color:#2d3e50 ;
+  color:lightgrey;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+footer ul li a{
+  text-decoration: none;
+  color: inherit;
+
+}
+footer ul{
+  list-style: none;
+  text-transform: capitalize;
+  line-height: 2em;
+}
+.col4 ul li:first-child{
+  font-weight: 800;
+  margin-bottom: 10px;
+  color: white;
+}
+
+footer .btn {
+  background-color: lightgrey;
+  color:2d3e50 ;
+}
+.ft_menu_inline li,
+.language .menu_inline li,
+.copy_menu_inline li{
+display: inline-block;
+margin-right: 10px;
+}
+
+.language {
+  text-align: center;
+  border-bottom: 1px solid lightgrey ;
+}
+.copyright .fl_right{
+  text-align: right;
+}
