@@ -13,13 +13,13 @@
             <div class="top_bar boxed clearfix">
                 <div class="tb_left fl_left col_w50">
                     <ul class="menu_inline">
-                        <li><i class="fas fa-globe"></i>&nbsp; English</i></li>
-                        <li>Contact us</li>
+                        <li><a href="#" class="dropdown"><i class="fas fa-globe"></i>&nbsp; English</i></a></li>
+                        <li><a href="#">Contact us</a></li>
                     </ul>
                 </div>
                 <div class="tb_right fl_left col_w50">
                     <ul class="menu_inline">
-                        <li><i class="fas fa-search"></i></li>
+                        <li><a href="#"><i class="fas fa-search" id="topbar_search_icon"></i></a></li>
                         <li><a href="#" class="btn btn_small btn_white">Log in</a></li>
                         <li><a href="#" class="btn btn_small btn_orange">GetHubspotFree</a></li>
                     </ul>
@@ -32,17 +32,17 @@
                 <div class="nav_menu fl_right menu_inline">
                     <nav>
                         <ul>
-                            <li><a href="#">Software</a></li>
-                            <li><a href="#">Pricing</a></li>
-                            <li><a href="#">Resources</a></li>
-                            <li><a href="#">Partners</a></li>
-                            <li><a href="#">About</a></li>
+                            <li><a href="#" class="dropdown">Software</a></li>
+                            <li><a href="#" class="dropdown">Pricing</a></li>
+                            <li><a href="#" class="dropdown">Resources</a></li>
+                            <li><a href="#" class="dropdown">Partners</a></li>
+                            <li><a href="#" class="dropdown">About</a></li>
                         </ul>
                     </nav>
                 </div>
             </div>
             <div class="banner boxed">
-                <div class="banner_textblock col_w50">
+                <div class="banner_textblock col col_w50">
                     <h1>There's a better way to grow.</h1>
                     <p>Marketing, sales, and service software that helps your business grow without compromise. Because "good for the business" should also mean "good for the customer"</p>
                     <a href="" class="btn btn_large btn_orange">GetHubspotFree</a>
@@ -55,7 +55,7 @@
 
         <!-- info_section start -->
 
-        <div class="info_section">
+        <div class="info_section section">
             <div class="row boxed">
               <div class="parte_free boxed">
                 <img src="img/cubo.svg" alt="">
@@ -66,11 +66,11 @@
 
             <div class="row boxed">
               <div class="info_block ib_hor clearfix">
-                <div class="info_h_left fl_left col_w30">
+                <div class="info_h_left fl_left col col_w30">
                   <img src="img/info_orizzontale.svg" alt="">
                   <a href="#"class="btn btn_large btn_orange">learn more</a>
                 </div>
-                <div class="info_h_right fl_left col_w70">
+                <div class="info_h_right fl_left col col_w70">
                   <h3>free hubSpot CRM</h3>
                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                   <h4>popolar feature</h4>
@@ -96,6 +96,7 @@
                     <li>deals</li>
                     <li>task</li>
                   </ul>
+                  <a href="#" class="btn btn_large btn_orange">learn more</a>
                 </div>
               </div>
               <div class="col_w33 fl_left">
@@ -132,14 +133,14 @@
         <!-- info_section end -->
 
         <!-- LEARNING SECTION -->
-        <div class="row learning_section boxed clearfix">
+        <div class="section learning_section boxed clearfix">
           <div class="testo_free">
             <h2>Learn and grow with award-winning support and a thriving community behind you.</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero suscipit aspernatur deserunt laboriosam harum!</p>
           </div>
-          <div class="tabella dati">
-            <div class="griglia 4col">
-              <div class="griglia_row">
+          <div class="tabella_dati">
+            <div class="griglia col4">
+              <div class="griglia_row clearfix">
                 <div class="col col_w25 fl_left">
                   <img src="img/griglia/mani.svg" alt="">
                   <p class="numeri">150+</p>
@@ -161,7 +162,7 @@
                   <p class="testo">Hubspot user groups</p>
                 </div>
               </div>
-              <div class="griglia_row">
+              <div class="griglia_row clearfix">
                 <div class="col col_w25 fl_left">
                   <img src="img/griglia/mani.svg" alt="">
                   <p class="numeri">150+</p>
@@ -189,53 +190,56 @@
         <!-- LEARNING SECTION END -->
 
         <!-- BRAND SECTION -->
-            <div class="brand boxed clearfix">
-                <div class="brand_left col_w30 fl_left">
-                  <h3>64,500</h3>
-                  <p>Lorem ipsum dolor sit amet consectetur.</p>
-                </div>
-                <div class="brand_right col_w70 fl_left">
-                  <div class="griglia 4col">
-                    <div class="griglia_row">
-                      <div class="col col_w25 fl_left">
-                        <img src="img/brand/atlassian.png" alt="">
-                      </div> <div class="col col_w25 fl_left">
-                        <img src="img/brand/doordash.png" alt="">
-                      </div> <div class="col col_w25 fl_left">
-                        <img src="img/brand/g2crowd.png" alt="">
-                      </div> <div class="col col_w25 fl_left">
-                        <img src="img/brand/purple_logo.png" alt="">
-                      </div>
-                    </div> 
-                    <div class="griglia_row">
-                      <div class="col col_w25 fl_left">
-                        <img src="img/brand/subaru_logo.png" alt="">
-                      </div> <div class="col col_w25 fl_left">
-                        <img src="img/brand/wistia_logo.png" alt="">
-                      </div> <div class="col col_w25 fl_left">
-                        <img src="img/brand/classpass_logo.png" alt="">
-                      </div> <div class="col col_w25 fl_left">
-                        <img src="img/brand/vmware_logo.png" alt="">
-                      </div>
-                    </div> 
+        <div class="section">
+          <div class="boxed clearfix">
+            <div class="brand_left col col_w30 fl_left">
+              <h3>64,500</h3>
+              <p>Lorem ipsum dolor sit amet consectetur.</p>
+            </div>
+            <div class="brand_right col_w70 fl_left">
+              <div class="griglia 4col">
+                <div class="griglia_row clearfix">
+                  <div class="col col_w25 fl_left ">
+                    <img src="img/brand/atlassian.png" alt="">
+                  </div> <div class="col col_w25 fl_left">
+                    <img src="img/brand/doordash.png" alt="">
+                  </div> <div class="col col_w25 fl_left">
+                    <img src="img/brand/g2crowd.png" alt="">
+                  </div> <div class="col col_w25 fl_left">
+                    <img src="img/brand/purple_logo.png" alt="">
                   </div>
-                </div>
-            </div>
-            <div class="woman boxed clearfix">
-              <div class="col_w50 fl_left">
-                <h3>Start Growing with Hubspot Today</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elitLorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                <a href="#" class="btn btn_large btn_orange">GetHubspotFree</a>
-                <p>didsacalia</p>
+                </div> 
+                <div class="griglia_row clearfix">
+                  <div class="col col_w25 fl_left">
+                    <img src="img/brand/subaru_logo.png" alt="">
+                  </div> <div class="col col_w25 fl_left">
+                    <img src="img/brand/wistia_logo.png" alt="">
+                  </div> <div class="col col_w25 fl_left">
+                    <img src="img/brand/classpass_logo.png" alt="">
+                  </div> <div class="col col_w25 fl_left">
+                    <img src="img/brand/vmware_logo.png" alt="">
+                  </div>
+                </div> 
               </div>
-              <div class="col_w50 fl_left">
-                <img src="img/woman.webp" alt="">
-              </div>
             </div>
+        </div>
+        <div class="woman boxed clearfix">
+          <div class="col col_w50 fl_left">
+            <h3>Start Growing with Hubspot Today</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elitLorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            <a href="#" class="btn btn_large btn_orange">GetHubspotFree</a>
+            <p>didsacalia</p>
+          </div>
+          <div class="col_w50 fl_left">
+            <img src="img/woman.webp" alt="">
+          </div>
+        </div>
+        </div>
+            
         <!-- BRAND SECTION END -->
 
         <!-- FOOTER -->
-        <footer>
+        <footer class="section">
             <div class="col4 boxed clearfix">
               <div class="col_w25 fl_left">
                 <ul>
@@ -277,7 +281,7 @@
                   <li>content management system</li>
                   <li><a href="#" class="btn btn_small">contact hubspot support</a></li>
                   <li>
-                    <ul class="ft_menu_inline">
+                    <ul class="menu_inline">
                       <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
                       <li><a href="#"><i class="fab fa-instagram"></i></a></li>
                       <li><a href="#"><i class="fab fa-youtube"></i></a></li>
@@ -292,19 +296,19 @@
               <ul class="menu_inline">
                 <li><a href="#">english</a></li>
                 <li><a href="#">deutsch</a></li>
-                <li><a href="#">giapponese</a></li>
-                <li><a href="#">espanol</a></li>
-                <li><a href="#">portugues</a></li>
-                <li><a href="#">francais</a></li>
+                <li><a href="#">日本語</a></li>
+                <li><a href="#">espa&#241;ol</a></li>
+                <li><a href="#">portugu&#234;s</a></li>
+                <li><a href="#">français</a></li>
               </ul>
             </div>
-            <div class="copyright boxed clearfix">
+            <div class="copyright row boxed clearfix">
               <div class="col_w50 fl_left">
-                <img src="img/logo.svg" alt="">
-                <p>Copyright</p>
+                <img src="img/logo_gray.svg" alt="">
+                <p>Copyright &#169; 2019 Hubspot, Inc.</p>
               </div>
               <div class="col_w50 fl_right">
-                <ul class="copy_menu_inline">
+                <ul class="menu_inline">
                   <li><a href="#">legal stuff</a></li>
                   <li><a href="#"></a>privacy policy</li>
                 </ul>
